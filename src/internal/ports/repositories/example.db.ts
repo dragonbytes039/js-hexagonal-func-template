@@ -1,4 +1,5 @@
-import type { Example } from "../../../domain/entities/Example.js";
+import type { Example } from "../../domain/entities/Example.js";
+
 
 
 export type exampleDbRepository = {

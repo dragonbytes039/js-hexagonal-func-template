@@ -1,6 +1,6 @@
 
-import type { Example } from "../../../domain/entities/Example.js"
-import type { CreateExampleServiceDto, DeleteExampleServiceDto } from "./dtos.js"
+import type { Example } from "../../domain/entities/Example.js"
+import type { CreateExampleServiceDto, DeleteExampleServiceDto } from "./example.dtos.js"
 
 
 

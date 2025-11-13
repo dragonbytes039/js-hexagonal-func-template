@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createExampleControllerBuild } from "../../../adapters/http/controllers/example/entryPoint.js";
+import { createExampleControllerBuild } from "../assembly/example.assembly.js";
 
 const ExampleRouter:Router = Router()
 
