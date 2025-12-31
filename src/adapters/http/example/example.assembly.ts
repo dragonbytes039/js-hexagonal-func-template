@@ -6,5 +6,9 @@ import { createExampleFactory } from '../../../internal/services/example/create.
 const examplePostgressRepository = examplePostgresRepositoryFactory()
 
 const createExampleService = createExampleFactory(examplePostgressRepository)
-export const createExampleControllerBuild = createExampleControllerFactory(createExampleService)
 
+const createExample = createExampleControllerFactory(createExampleService)
+
+export default {
+    createExample,
+}

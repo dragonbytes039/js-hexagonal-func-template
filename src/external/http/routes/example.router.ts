@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { createExampleControllerBuild } from "../assembly/example.assembly.js";
+import exampleController from "../../../adapters/http/example/example.assembly.js";
 
 const ExampleRouter:Router = Router()
 
-ExampleRouter.post("/create" ,createExampleControllerBuild)
+ExampleRouter.post("/create" ,exampleController.createExample)
 
 export default ExampleRouter
